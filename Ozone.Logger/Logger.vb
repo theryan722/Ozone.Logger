@@ -76,7 +76,7 @@
     ''' </summary>
     ''' <param name="writetimestamp">Whether or not to write a timestamp of when the log was cleared.</param>
     ''' <remarks></remarks>
-    Public Shared Sub ClearLog(ByVal writetimestamp As Boolean)
+    Public Shared Sub ClearLog(Optional writetimestamp As Boolean = False)
         If LogSettings.UseDefaultLogLocation Then
             Dim objWriter As New System.IO.StreamWriter(defloc)
             If writetimestamp Then
