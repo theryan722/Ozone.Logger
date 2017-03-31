@@ -7,13 +7,13 @@
 
 Simple and quick logging for .Net applications, Ozone.Logger does the dirty work of setting up and writing to a log for you.
 
-##Usage
+### Usage
 Check out the [wiki](https://github.com/theryan722/Ozone.Logger/wiki) for help on using the library.
 
-###Binaries
+### Binaries
 You can download the library from the [releases](https://github.com/theryan722/Ozone.Logger/releases/) page.
 
-###License
+### License
 Copyright 2015 Ryan O'Day
 
 Licensed under the Apache License, Version 2.0 (the "License");
